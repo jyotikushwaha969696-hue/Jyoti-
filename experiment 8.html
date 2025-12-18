@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Experiment - Flexbox Student Profile Card</title>
+ <style>
+ body{
+ font-family: Arial, sans-serif;
+ margin: 20px;
+ background: #f9f9f9;
+ }
+ h2{text-align: center;}
+ .container{
+ display: flex; /* Flexbox container */
+ flex-direction: row; /* Arrange in a row */
+ justify-content: center; /* Center horizontally */
+ align-items: center; /* Align vertically */
+ gap: 20px; /* Space between cards */
+ flex-wrap: wrap; /* Wrap to next line if needed */
+ }
+ .card{
+ background: #fff;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+ width: 220px;
+ text-align: center;
+ padding: 16px;
+ }
+ .avatar{
+ width: 70px; height: 70px;
+ background: #007bff; color: #fff;
+ border-radius: 50%;
+ display: flex; justify-content: center; align-items: center;
+ font-size: 20px; margin: 0 auto 12px;
+ }
+ .name{ font-weight: bold; font-size: 18px; }
+ .detail{ font-size: 14px; color: #555; margin: 2px 0; }
+ </style>
+</head>
+<body>
+ <h2>Student Profile Cards</h2>
+ <div class="container">
+ <div class="card">
+ <div class="avatar">HR</div>
+ <div class="name">joti kushwaha</div>
+ <div class="detail">B.Tech - CSE</div>
+ <div class="detail">Roll No: 2025B01010922</div>
+ <div class="detail">1st Year</div>
+ </div>
+ <div class="card">
+ <div class="avatar">AR</div>
+ <div class="name">Asha Rani</div>
+ <div class="detail">B.Tech - IT</div>
+ <div class="detail">Roll No: 2025b0101033</div>
+ <div class="detail">1st Year</div>
+ </div>
+ <div class="card">
+ <div class="avatar">RK</div>
+ <div class="name">Ajay Kumar</div>
+ <div class="detail">B.Tech - ECE</div>
+ <div class="detail">Roll No: 2025b01019733/div>
+ <div class="detail">1st Year</div>
+ </div>
+ </div>
+</body>
+</html>
