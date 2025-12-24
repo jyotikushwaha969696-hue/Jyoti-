@@ -1,0 +1,14 @@
+#box1{
+    border: 1px;
+    background-color: aqua;
+    color: brown;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box2{
+    border: 1px;
+    background-color:cornflowerblue;
+    color: rgb(112, 6, 6);
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
